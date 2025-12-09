@@ -213,6 +213,76 @@ def dr_cha_claims_data() -> List[Dict]:
                 }
             ]
         },
+                {
+            'claim_id': 'BENUN_FRIEDA_112625',
+            'patient_last_name': 'BENUN',
+            'patient_first_name': 'FRIEDA',
+            'patient_dob': '19901212',
+            'patient_address': '1573 EAST 4TH ST',
+            'patient_city': 'BROOKLYN',
+            'patient_state': 'NY',
+            'patient_zip': '11230',
+            'patient_phone': '7329774869',
+            'member_id': '989430625',
+            'payer_name': 'UNITED HEALTHCARE',
+            'provider_npi': '1174537229',
+            'facility_name': 'LENOX HILL HOSPITAL',
+            'dos_from': '20251126',
+            'dos_to': '20251126',
+            'lines': [
+                {
+                    'cpt': '14040',
+                    'pos': '23',
+                    'charge': 26787.98,
+                    'units': 1,
+                    'icd': 'S86120A',
+                    'modifiers': []
+                },
+                {
+                    'cpt': '99282',
+                    'pos': '23',
+                    'charge': 689.21,
+                    'units': 1,
+                    'icd': 'S86120A',
+                    'modifiers': []
+                }
+            ]
+        },
+        {
+            'claim_id': 'UZIEL_ABRAHAM_120325',
+            'patient_last_name': 'UZIEL',
+            'patient_first_name': 'ABRAHAM',
+            'patient_dob': '20130929',
+            'patient_address': '1643 EAST 3RD STREET',
+            'patient_city': 'BROOKLYN',
+            'patient_state': 'NY',
+            'patient_zip': '11230',
+            'patient_phone': '9174762183',
+            'member_id': '11914589603',
+            'payer_name': 'OXFORD',
+            'provider_npi': '1174537229',
+            'facility_name': 'LENOX HILL HOSPITAL',
+            'dos_from': '20251202',
+            'dos_to': '20251202',
+            'lines': [
+                {
+                    'cpt': '13132',
+                    'pos': '23',
+                    'charge': 14445.89,
+                    'units': 1,
+                    'icd': 'S86120A',
+                    'modifiers': []
+                },
+                {
+                    'cpt': '99282',
+                    'pos': '23',
+                    'charge': 689.21,
+                    'units': 1,
+                    'icd': 'S86120A',
+                    'modifiers': []
+                }
+            ]
+        }
         # Placeholder for remaining 4 PDFs - populate from ShareFile extraction
     ]
     
